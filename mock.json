@@ -1,0 +1,32 @@
+{
+  "get_job_info": {
+    "admin_settings": {
+      "predict_enabled": false
+    },
+    "has_screening": true,
+    "internal_reference": "JOB-01",
+    "interview_name": "Job 1",
+    "job_id": "2",
+    "job_slug": "job-slug",
+    "job_type": "screening_video",
+    "permissions": [
+      {"key": "perm-candidate-name", "read": true}, 
+      {"key": "perm-candidate-menu", "read": true}
+    ]
+  },
+  "candidates": {
+    "admin_settings": { "predict_enabled": false},
+    "candidates": [{
+      "id": 10, "name": "bla bla bla", "email": "bla@mailinator.com", "current_status": "completed", "completion_date": "2018-06-27T17:41:34+01:00" 
+    }],
+    "count": 3,
+    "current_page": 1,
+    "internal_reference": "JOB-01",
+    "interview_name": "Job 1",
+    "job_id": "2",
+    "next_page": null,
+    "per_page": 10,
+    "permissions": [{"key": "perm-candidate-name", "read": true}, {"key": "perm-candidate-menu", "read": true}],
+    "total_pages": 1
+  }
+}
